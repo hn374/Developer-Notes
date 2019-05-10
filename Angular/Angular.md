@@ -1,18 +1,18 @@
 # Angular
 
-### Components
+## Components
 
 A component is a class that serves as the basic building block for Angular applications. It consists of three parts, a TypeScript file, an HTML template, and CSS styles. There are a few ways to serve data from parent to child components and vice versa.
 
 ***
 
-### Property Binding
+## Property Binding
 
 Binding is a way to connect data from the TypeScript code to the HTML. We can use [] to connect a variable from the TS file to an HTML element.
 
 ***
 
-### Interpolation
+## Interpolation
 
 We can also interpolate values from the TypeScript file using handlebars syntax.
 
@@ -22,7 +22,7 @@ We can also interpolate values from the TypeScript file using handlebars syntax.
 
 ***
 
-### Directives
+## Directives
 
 Directives allow you to extend HTML elements with custom attributes
 
@@ -44,19 +44,19 @@ Applies styles conditionally.
 
 ***
 
-### Services
+## Services
 
 Services allow us to have code that can be used everywhere on the page. It can be used for data connection that needs to be shared across components. We can access methods and properties across other components in the entire project.
 
 ***
 
-### Modules
+## Modules
 
 A place where you can group the components, directives, pipes and services that are related to the application.
 
 ***
 
-### Lifecycle Hooks
+## Lifecycle Hooks
 
 Components have a lifecycle. They are created, things change, and then they're destroyed. You can hook into these lifecycle events and perform any needed logic. 
 
