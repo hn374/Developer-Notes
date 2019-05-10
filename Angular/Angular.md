@@ -14,6 +14,30 @@ Binding is a way to connect data from the TypeScript code to the HTML. We can us
 
 ***
 
+## @Input()
+
+We can use @Input() to pass data from a parent component to a child component through an HTML attribute.
+
+```javascript
+export class ChildComponent {
+  @Input() color;
+}
+```
+
+This allows us to pass data into the component:
+
+```html
+<child-component color="blue"></child-component>
+```
+
+***
+
+## @Output()
+
+
+
+***
+
 ## Interpolation
 
 We can also interpolate values from the TypeScript file using handlebars syntax.
