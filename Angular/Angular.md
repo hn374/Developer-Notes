@@ -1,5 +1,7 @@
 # Angular
 
+Angular is a TypeScript-based application framework led by the Angular Team at Google. 
+
 ## Components
 
 A component is a class that serves as the basic building block for Angular applications. It consists of three parts, a TypeScript file, an HTML template, and CSS styles. There are a few ways to serve data from parent to child components and vice versa.
