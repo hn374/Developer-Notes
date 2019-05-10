@@ -8,6 +8,8 @@ A component is a class that serves as the basic building block for Angular appli
 
 Binding is a way to connect data from the TypeScript code to the HTML. We can use [] to connect a variable from the TS file to an HTML element.
 
+***
+
 ### Interpolation
 
 We can also interpolate values from the TypeScript file using handlebars syntax.
@@ -15,6 +17,8 @@ We can also interpolate values from the TypeScript file using handlebars syntax.
  ```html
  <h1>{{ appName }}</h1>
  ```
+
+***
 
 ### Directives
 
