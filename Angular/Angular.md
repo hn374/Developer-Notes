@@ -13,7 +13,7 @@ Binding is a way to connect data from the TypeScript code to the HTML. We can us
 We can also interpolate values from the TypeScript file using handlebars syntax.
 
  ```html
- 	<h1>{{ appName }}</h1>
+ <h1>{{ appName }}</h1>
  ```
 
 ### Directives
