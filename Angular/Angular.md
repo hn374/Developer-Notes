@@ -52,6 +52,8 @@ Services allow us to have code that can be used everywhere on the page. It can b
 
 ### Modules
 
+A place where you can group the components, directives, pipes and services that are related to the application.
+
 ***
 
 ### Lifecycle Hooks
