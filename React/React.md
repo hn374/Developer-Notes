@@ -1,5 +1,7 @@
 # React
 
+![React Image](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+
 React is a JavaScript library for building user interfaces that is maintained by Facebook. 
 
 ***
