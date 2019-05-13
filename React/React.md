@@ -30,7 +30,7 @@ function Welcome(props) {
 }
 ```
 
-More commonly, you'l be using an ES6 class to define a component:
+More commonly, you'll be using an ES6 class to define a component:
 
 ```javascript
 class Welcome extends React.Component {
