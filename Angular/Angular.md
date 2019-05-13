@@ -1,6 +1,12 @@
 # Angular
 
-Angular is a TypeScript-based application framework led by the Angular Team at Google. 
+Angular is a TypeScript-based application framework led by the Angular Team at Google. Everything is more opinionated in Angular but it has a lot features "out of the box".
+
+## File Structure
+
+Angular follows an MVC architecture.
+
+***
 
 ## Components
 

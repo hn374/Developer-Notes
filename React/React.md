@@ -10,6 +10,12 @@ React components are typically written using JSX. JSX is an extension to the Jav
 
 ***
 
+## File Structure
+
+React doesn't have opinions on how you should put files into folders, so you can choose anyway you want. Some popular approaches for React file structures are grouping by features or routes, and grouping by file type. A good tip is to avoid too much nesting. You should have a maximum of three or four nested folders within a single project.
+
+***
+
 ## Components
 
 Component let you split the UI into independent, reusable pieces, and think about each piece in isolation. 
