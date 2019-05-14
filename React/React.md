@@ -101,6 +101,8 @@ Any state is always owned by some specific component, and any data or UI derived
 
 ## Handling Events
 
+Handling events with React elements is very similar to handling events on DOM elements. In React, you use camelCase, rather than lowercase. With JSX, you pass a function as the event handler instead of a string. In React, you also have to call preventDefault explicitly to prevent default behavior. In JavaScript, class methods are not bound by default, so you have to bind them to their classes. If you refer to a method with () after it, you need to bind that method in the constructor. 
+
 ***
 
 ## Lifting State Up
@@ -111,6 +113,6 @@ Lifting state up is for when several components need to reflect the same changin
 
 ## Composition vs Inheritance
 
-Facebook recommends using 
+Facebook recommends using composition instead of inheritance to reuse code between components. A more specific component renders a more generic one and configures it with props. 
 
 ***
