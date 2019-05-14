@@ -46,6 +46,8 @@ class Welcome extends React.Component {
 
 Properties are passed to a component from the parent component. Components receive props as a single set of immutable values (a JavaScript object). Props should never be modified, only states.
 
+Think of them similar to function parameters.
+
 ***
 
 ## State
@@ -62,6 +64,8 @@ class ParentComponent extends React.Component {
   }
 }
 ```
+
+Think of them similar to variables declared within a function.
 
 ***
 
