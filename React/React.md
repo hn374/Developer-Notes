@@ -20,9 +20,9 @@ React doesn't have opinions on how you should put files into folders, so you can
 
 ## Components
 
-Component let you split the UI into independent, reusable pieces, and think about each piece in isolation. 
+Component let you split the UI into independent, reusable pieces, and think about each piece in isolation. Each component can only return one element. You need to wrap all your HTML in one containing element, usually a div.
 
-The simplest way to define a component is to write a JavaScript function:
+The simplest way to define a component is to write a JavaScript function. This is if the component does not need a state. It is considered a dumb components:
 
 ```javascript
 function Welcome(props) {
@@ -30,7 +30,7 @@ function Welcome(props) {
 }
 ```
 
-More commonly, you'll be using an ES6 class to define a component:
+More commonly, you'll be using an ES6 class to define a component. If a component needs a state, it is considered a smart component and needs to be created like so:
 
 ```javascript
 class Welcome extends React.Component {
@@ -50,7 +50,7 @@ Properties are passed to a component from the parent component. Components recei
 
 ## State
 
-States hold values throughout the component and can be passed to child components through props. Other than that, states are local to the components that own it. States are immutable. To change state, you have to return a new array.
+States hold values throughout the component and can be passed to child components through props. Other than that, states are local to the components that own it. States are immutable. To change state, you have to return a new array using this.setState. State changes can be asynchronous.
 
 ```javascript
 class ParentComponent extends React.Component {
