@@ -50,7 +50,7 @@ Properties are passed to a component from the parent component. Components recei
 
 ## State
 
-States hold values throughout the component and can be passed to child components through props. States are immutable. To change state, you have to return a new array.
+States hold values throughout the component and can be passed to child components through props. Other than that, states are local to the components that own it. States are immutable. To change state, you have to return a new array.
 
 ```javascript
 class ParentComponent extends React.Component {
@@ -93,14 +93,24 @@ The most important lifecycle method and the only required one in any component. 
 
 ***
 
+## Top-Down or Unidirectional Data Flow
+
+Any state is always owned by some specific component, and any data or UI derived from the state can only affect components below them in the tree. A child component does not know whether props were passed in from a parent component's state, props, or typed by hand. If you imagine a component as a waterfall of props, each component's state is like an additional water source that joins it at an arbitrary point but also flows down. 
+
+****
+
 ## Handling Events
 
 ***
 
 ## Lifting State Up
 
+Lifting state up is for when several components need to reflect the same changing data. The shared state is lifted up to their closest common ancestor. There should be a single source of truth for any data that changes in a React application. 
+
 ***
 
 ## Composition vs Inheritance
+
+Facebook recommends using 
 
 ***
