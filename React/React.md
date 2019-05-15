@@ -22,7 +22,7 @@ React doesn't have opinions on how you should put files into folders, so you can
 
 Component let you split the UI into independent, reusable pieces, and think about each piece in isolation. Each component can only return one element. You need to wrap all your HTML in one containing element, usually a div.
 
-The simplest way to define a component is to write a JavaScript function. This is if the component does not need a state. It is considered a dumb components:
+The simplest way to define a component is to write a JavaScript function. This is if the component does not need a state. It is considered a dumb component:
 
 ```javascript
 function Welcome(props) {
