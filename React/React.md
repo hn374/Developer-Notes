@@ -52,7 +52,7 @@ Think of them similar to function parameters.
 
 ## State
 
-States hold values throughout the component and can be passed to child components through props. Other than that, states are local to the components that own it. States are immutable. To change state, you have to return a new array using this.setState. State changes can be asynchronous.
+States hold values throughout the component and can be passed to child components through props. Other than that, states are local to the components that own it. States are immutable. To change state, you have to return a new array using this.setState. State changes are asynchronous.
 
 ```javascript
 class ParentComponent extends React.Component {
@@ -81,7 +81,7 @@ Lifecycle methods are hooks which allow execution of code at set points during t
 
 #### shouldComponentUpdate()
 
-Allows the developer to present unncessary re-rendering of a component by returning false if a render is not required.
+Allows the developer to present unnecessary re-rendering of a component by returning false if a render is not required.
 
 #### componentDidMount()
 
