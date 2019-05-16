@@ -120,3 +120,21 @@ Lifting state up is for when several components need to reflect the same changin
 Facebook recommends using composition instead of inheritance to reuse code between components. A more specific component renders a more generic one and configures it with props. 
 
 ***
+
+# React Libraries
+
+## Redux
+
+Redux is a state management solution. It makes it possible to connect every component directly to the entire state and thus eliminates the need to use props or callbacks. 
+
+## Material UI
+
+Set of components created by Google using their Material Design philosophy. 
+
+## React Router
+
+One of the best React libraries for handling routing. The routes are considered as components. When the app is running, the routes are rendered to the screen. 
+
+## React DnD
+
+A library used to build complex drag and drop interfaces. 
