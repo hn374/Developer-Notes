@@ -121,6 +121,12 @@ Facebook recommends using composition instead of inheritance to reuse code betwe
 
 ***
 
+## Bundling
+
+The process of following imported files and merging them into a single file: a "bundle". People do this with Webpack or Browserify. This bundle can then be included on a webpage to load an entire app at once.
+
+## Higher Order Components
+
 # React Libraries
 
 ## Redux
