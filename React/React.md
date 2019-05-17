@@ -125,6 +125,10 @@ Facebook recommends using composition instead of inheritance to reuse code betwe
 
 The process of following imported files and merging them into a single file: a "bundle". People do this with Webpack or Browserify. This bundle can then be included on a webpage to load an entire app at once.
 
+## Code Splitting
+
+Creates multiple bundles that can be dynamically loaded at runtime. Code splitting helps your app "lazy-load" just the things that are currently needed by the user, which can dramatically improve the performance of your app. You've avoided loading code that the user may never need, and reduced the amount of code needed during the initial load.
+
 ## Higher Order Components
 
 # React Libraries
