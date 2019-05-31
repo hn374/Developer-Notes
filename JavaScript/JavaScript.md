@@ -8,11 +8,15 @@ A closure is an inner function that has access to the outer function's variables
 
 It is basically a function inside of another function. 
 
+***
+
 ## Variable Scope
 
 The context in which the variable exists. The scope specifies from where you can access a variable and whether you have access to the variable in that context.
 
 Variables have either a local scope or a global scope. 
+
+***
 
 ## Variable Hoisting
 
@@ -21,6 +25,8 @@ All variable declarations are lifted and declared to the top of the function or 
 Only variable declarations are hoisted to the top, not variable initialization or assignments. 
 
 Function declarations take precedence over variable declarations.
+
+***
 
 ## Callback Functions
 
