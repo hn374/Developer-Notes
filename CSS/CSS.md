@@ -14,7 +14,7 @@ Define breakpoints based on specific devices, products, brand names, or operatin
 
 The general rule of thumb is to design for the smallest mobile device first, then progressively enhance the experience as more screen real estate becomes available. 
 
-We can use @media and @import to use media queries.
+We can use `@media` and `@import` to use media queries.
 
 #### min-width 
 
