@@ -34,7 +34,7 @@ Rules applied for any browser height less than the value defined in the query.
 
 #### orientation = portrait
 
-Rules applied for any brwoser where the height is greater than or equal to the width.
+Rules applied for any browser where the height is greater than or equal to the width.
 
 #### orientation = landscape
 
