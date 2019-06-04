@@ -47,3 +47,29 @@ Rules for any browser where the width is greater than the height.
   }
 }
 ```
+
+*** 
+
+## BEM (Blocks, Elements and Modifiers)
+
+BEM is a type of CSS architecture.
+
+#### Blocks
+
+Standalone entity that is meaningful on its own.
+
+#### Elements
+
+A part of a block that has no standalone meaning and is semantically tied to its block.
+
+#### Modifiers
+
+A flag on a block or element. Use them to change appearance or behavior. 
+
+#### Benefits
+
+Block styles are never dependent on other elements on a page. You will get the ability to transfer blocks from your finished projects to new ones. 
+
+Composing independent blocks in different ways reduces the amount of CSS code that you will have to maintain.
+
+BEM methodology gives your CSS code a solid structure that remains simple and easy to understand.
