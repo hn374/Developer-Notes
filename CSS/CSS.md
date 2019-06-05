@@ -73,3 +73,15 @@ Block styles are never dependent on other elements on a page. You will get the a
 Composing independent blocks in different ways reduces the amount of CSS code that you will have to maintain.
 
 BEM methodology gives your CSS code a solid structure that remains simple and easy to understand.
+
+***
+
+## Floats
+
+Floats allow you to put block-level elements side-by-side instead of on top of each other. Float-based layouts have mostly been replaced with Flexbox in modern websites. 
+
+If we float an element to the left, we're telling the browser to align it to the left side of the page. It also tells surrounding elements that they can flow around the floated element instead of beginning underneath it. 
+
+Floats do not count as part of the flow of the page. The height of our floated elements don't contribute to the vertical position.
+
+Clearing a float is when we tell a block to ignore any floats that appear before it. Instead of flowing around the floated box, a cleared elemnt always appears after any floats. 
