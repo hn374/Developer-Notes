@@ -139,6 +139,12 @@ A higher-order component is a function that takes a component and returns a new 
 const EnhancedComponent = higherOrderComponent(WrappedComponent);
 ```
 
+Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
+
+Note that a HOC doesn't modify the input component, nor does it use inheritance to copy its behavior. Rather, a HOC composes the original component by wrapping it in a container component. A HOC is a pure function with zero-side effects.
+
+You should not mutate a higher-order component, HOCs should use composition by wrapping the input component in a container component.
+
 # React Libraries
 
 ## Redux
