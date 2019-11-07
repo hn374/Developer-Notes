@@ -10,6 +10,18 @@ Angular follows an MVC architecture.
 
 ***
 
+## MVC
+
+MVC stands for Model, View, and Controller. 
+
+The Model would be anything that has to do with business logic, including manipulating data or accessing databases. For Angular, the model would be the services.
+
+The View is anything that is displayed to the user. For Angular, this would be the HTML and the CSS/SCSS files.
+
+The Controller communicates between the model and the view. For Angular, this would be the component TypeScript files. 
+
+***
+
 ## Components
 
 A component is a class that serves as the basic building block for Angular applications. It consists of three parts, a TypeScript file, an HTML template, and CSS styles. There are a few ways to serve data from parent to child components and vice versa.
