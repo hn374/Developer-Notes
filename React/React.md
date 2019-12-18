@@ -131,7 +131,7 @@ Creates multiple bundles that can be dynamically loaded at runtime. Code splitti
 
 ## Higher Order Components
 
-A higher-order component is an advanced technique in React for reusing component logic. They are a pattern that emerges from Raect's compositional nature. 
+A higher-order component is an advanced technique in React for reusing component logic. They're a pattern that emerges from React's compositional nature. 
 
 A higher-order component is a function that takes a component and returns a new component.
 
