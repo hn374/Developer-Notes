@@ -149,7 +149,9 @@ You should not mutate a higher-order component, HOCs should use composition by w
 
 ## Redux
 
-Redux is a state management solution. It makes it possible to connect every component directly to the entire state and thus eliminates the need to use props or callbacks. 
+Redux is a state management solution. It makes it possible to connect every component directly to the entire state and thus eliminates the need to use props or callbacks. Basically, it brings all state to a global level so that any component can access any state. 
+
+The common solution when you need to share data between different components is to lift the state up to the closest shared component and pass down the data to the different components that need it. However, this can be tedious and unscalable. This is the exact problem that Redux fixes. It helps keeping the state you share throughout your app clear and clean by creating a global state that can be accessible anywhere in your application.
 
 ## Material UI
 
@@ -157,8 +159,12 @@ Set of components created by Google using their Material Design philosophy.
 
 ## React Router
 
-One of the best React libraries for handling routing. The routes are considered as components. When the app is running, the routes are rendered to the screen. 
+One of the best React libraries for handling routing. The routes are considered as components. When the app is running, the routes are rendered to the screen. Instead of having to call the server everytime to load a new page, routes are processed and loaded in the client.
 
 ## React DnD
 
 A library used to build complex drag and drop interfaces. 
+
+## Axios
+
+Axis is a lightweight HTTP client based on the HTTP Service in Angular. It is promised based and we can take advantage of async and await for more readable asynchronous code. This is the library we would use to make API requests. 
