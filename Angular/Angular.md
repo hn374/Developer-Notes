@@ -94,11 +94,19 @@ Applies styles conditionally.
 
 Services allow us to have code that can be used everywhere on the page. It can be used for data connection that needs to be shared across components. We can access methods and properties across other components in the entire project.
 
+Services are also known as singletons, they restrict the instantiation of a class to one object. This means the same functions and properties can be shared throughout your app from a single shared instance.
+
 ***
 
 ## Modules
 
 A place where you can group the components, directives, pipes and services that are related to the application.
+
+***
+
+## Observables
+
+Observables are basically blue prints for HTTP requests. When you subscribe to the returned observable, you execute the actual HTTP request. Observables are functions that throw values, and objects called observers subscribe to these values.
 
 ***
 

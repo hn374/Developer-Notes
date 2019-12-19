@@ -163,7 +163,7 @@ One of the best React libraries for handling routing. The routes are considered 
 
 ## React DnD
 
-A library used to build complex drag and drop interfaces. 
+A library used to build complex drag and drop interfaces.
 
 ## Axios
 

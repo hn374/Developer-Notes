@@ -1,4 +1,4 @@
-# General Computer Science Knowledge
+# Computer Science
 
 ***
 
@@ -49,5 +49,15 @@ Multi Page applications are synchronous. Every change sends a request to the ser
 ## Functional Programming
 
 Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data, and side effects. A pure function is a function given the same inputs, always returns the same output and has no side-effects.
+
+***
+
+## Client-Server Model
+
+A client is a computing device or software (phone, browser, etc.) that accesses a service made available by a server.
+
+A server is a computer program or device that provides functionality for other programs or devices, called clients. 
+
+Generally, a client communicates to a server through HTTP requests. If a client needs to call an API, it would call the server, then the server would call the API and send the data back to the client.
 
 ***
