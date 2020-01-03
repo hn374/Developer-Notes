@@ -40,7 +40,7 @@ Inheritance is a design technique to implement a "is-a" relationship between obj
 
 ## Single Page Applications vs Multi Page Applications
 
-Single Page applications are asynchronous. SPAs do not require page reloading during use. SPA requests the markup and data independly and renders pages straight in the browser.
+Single Page applications are asynchronous. SPAs do not require page reloading during use. SPA requests the markup and data independently and renders pages straight in the browser.
 
 Multi Page applications are synchronous. Every change sends a request to the server, rendering a new page everytime. 
 
