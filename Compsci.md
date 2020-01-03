@@ -12,7 +12,7 @@ A class is a special kind of object that's used as a template for creating insta
 
 ## Encapsulation
 
-Encapsulation is achieved when each object keeps its state private, inside a class. Other objects don't have direct ass to this state. Instead, they can only call a list of public functions, called methods. 
+Encapsulation is achieved when each object keeps its state private, inside a class. Other objects don't have direct access to this state. Instead, they can only call a list of public functions, called methods. 
 
 *** 
 
