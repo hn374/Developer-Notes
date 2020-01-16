@@ -54,6 +54,12 @@ We create header files that contains each function prototype written just once, 
 
 Pointers in C language is a variable that stores/points the address of another variable. A pointer in C is used to allocate memory dynamically at run time. The & is used to get the address of the variable and the * is used to get the value of the variable that the pointer is pointing to.
 
+Pointers are used in three different ways:
+
+1. To create dynamic data structures.
+2. To pass and handle variable parameters passed to functions.
+3. To access information stored in arrays.
+
 It is a good practice to assign a null value to a pointer variable in case you do not have an exact address to be assigned.
 
 ***
