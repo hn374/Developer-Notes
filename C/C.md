@@ -34,7 +34,7 @@ C does not have a boolean, so it treats 0 as false and all other types as true.
 
 ## Arrays
 
-An array in C cannot grow or shrink, its size is fixed at the time of creation.
+An array in C cannot grow or shrink, its size is fixed at the time of creation. Array operators are pointer operators. `array[x]` is really shortcut for `*(array + x)`. In order to create an array, you must declare how much memory is needed in the beginning. However, if you want to create a dynamic array, you must use pointers.
 
 ***
 
@@ -101,12 +101,6 @@ Changes size of block p and returns pointer to new block.
 ## Calloc()
 
 Allocates memory for N elements of size K, or returns null if it cannot allocate anything.
-
-***
-
-## Arrays
-
-Array operators are pointer operators. `array[x]` is really shortcut for `*(array + x)`. In order to create an array, you must declare how much memory is needed in the beginning. However, if you want to create a dynamic array, you must use pointers.
 
 ***
 
