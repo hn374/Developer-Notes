@@ -82,7 +82,7 @@ Reports the size of a type in bytes.
 
 ## Malloc()
 
-Returns a pointer to a memory block of at least size bytes aligned to 8 byte boundary.
+Returns a pointer to the newly created memory block. Malloc's only argument is the size of the memory block in bytes. 
 
 ***
 
@@ -103,3 +103,13 @@ Changes size of block p and returns pointer to new block.
 Allocates memory for N elements of size K, or returns null if it cannot allocate anything.
 
 ***
+
+## Arrays
+
+Array operators are pointer operators. `array[x]` is really shortcut for `*(array + x)`. In order to create an array, you must declare how much memory is needed in the beginning. However, if you want to create a dynamic array, you must use pointers.
+
+***
+
+## Structures
+
+A structure is a user defined data type in C. A structure creates a data type that can be used to group items of possibly different types in a single type. A structure is a helpful tool to handle a group of logically related data items. 
