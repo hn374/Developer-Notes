@@ -101,7 +101,7 @@ The most important lifecycle method and the only required one in any component. 
 
 Any state is always owned by some specific component, and any data or UI derived from the state can only affect components below them in the tree. A child component does not know whether props were passed in from a parent component's state, props, or typed by hand. If you imagine a component as a waterfall of props, each component's state is like an additional water source that joins it at an arbitrary point but also flows down. 
 
-****
+***
 
 ## Handling Events
 
@@ -145,6 +145,8 @@ Note that a HOC doesn't modify the input component, nor does it use inheritance 
 
 You should not mutate a higher-order component, HOCs should use composition by wrapping the input component in a container component.
 
+***
+
 # React Libraries
 
 ## Redux
@@ -168,3 +170,41 @@ A library used to build complex drag and drop interfaces.
 ## Axios
 
 Axis is a lightweight HTTP client based on the HTTP Service in Angular. It is promised based and we can take advantage of async and await for more readable asynchronous code. This is the library we would use to make API requests. 
+
+***
+
+# Interview Questions
+
+## Why does react need a root element?
+
+React is JavaScript, and it needs an element where it can render a DOM Tree.
+
+## What is the difference between state and props?
+
+State is for storing stuff that is internal to the current component.
+
+Props are for passing down from parent components to child components.
+
+## What is context?
+
+Context is a globally available prop that should only be used on occasions where you need the prop globally. For example, a theme.
+
+## What are prop types and what are the benefits/drawbacks of them?
+
+Prop types is a way for you to know what types a component is expecting.
+
+## What life cycle events are the most common?
+
+`componentWillMount()` and `componentDidUnmount()`.
+
+## Explain how React rendering works.
+
+React listens for DOM updates and rerenders the DOM tree on every change. It uses component diffing to check whether there is a change to the component and only rerenders if there is one.
+
+## What is Redux?
+
+Redux is a popular tool for storing global state in React.
+
+## Explain how Redux works.
+
+You declare a reducer that takes in an action and a state. When you dispatch an action, the state gets updated and React rerenders the DOM with the state change.
