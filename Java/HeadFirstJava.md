@@ -19,3 +19,19 @@ The garbage collector will run, throw out the unreachable objects, and free up s
 Marking something as public and static makes it behave like a global variable.
 
 ## Chapter 3: Primitives and References
+
+Variables come in two flavors: primitives and object reference.
+
+Primitives hold fundamental values, like integers, booleans and floating point numbers.
+
+Object references hold references to objects. An object reference variable holds bits that represent a way to access an object. It doesn't hold the object itself, but a pointer to it.
+
+Arrays are always objects, whether they're declared to hold primitives or object references.
+
+## Chapter 4: How Objects Behave
+
+Objects have state and behavior, represented by instance variables and methods.
+
+Mark your instance variables private and mark your getters and setters public.
+
+## Chapter 5: Extra Strength Methods
