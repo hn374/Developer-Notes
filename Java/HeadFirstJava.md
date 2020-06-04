@@ -34,4 +34,12 @@ Objects have state and behavior, represented by instance variables and methods.
 
 Mark your instance variables private and mark your getters and setters public.
 
-## Chapter 5: Extra Strength Methods
+## Chapter 6: Get To Know the Java API
+
+Arrays in Java can not change size, but ArrayLists can.
+
+An array has to know its size at the time it is created. To put in an object inside an array, you must assign it to a specific location.
+
+Angle brackets <> are a way to force the compiler to allow only a specific type of object in the ArrayList.
+
+## Chapter 7: Better Living In Objectville
