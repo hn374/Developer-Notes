@@ -43,3 +43,27 @@ An array has to know its size at the time it is created. To put in an object ins
 Angle brackets <> are a way to force the compiler to allow only a specific type of object in the ArrayList.
 
 ## Chapter 7: Better Living In Objectville
+
+There are is-a and has-a relationships. For example, a bathroom is not a tub, but it has a tub. This means that bathroom has a reference to tub, but it does not extend tub.
+
+Access levels control who sees what, and are crucial to having well defined, robust Java code.
+
+Public members are inherited. Private members are not inherited.
+
+Use inheritance when one class is a more specific type of a superclass. For example, a willow is a more specific type of a tree.
+
+With polymorphism, the reference and the object can be different. When you declare a reference variable, any object that passes the is-a test for the declared type of the reference variable can be assigned to that reference.
+
+This is useful for certain things like polymorphic arrays. For example, let's say you declared an array of animals. In this array, you could hold different animal objects, like dog, cat, cow, pig, etc.
+
+You can also have polymorphic arguments and return types.
+
+A non-public class can be subclassed only by the classes in the same package as the class.
+
+The second thing that stops a class from being subclassed is the keyword modifier final. A final class means that it is the end of the inheritance line.
+
+Whatever the superclass uses as an argument for a method, the subclass using that method must use the same argument. The same is for return value.
+
+An overloaded method is just a different method that happens to have the same method name. It has nothing to do with inheritance or polymorphism.
+
+## Chapter 8: Serious Polymorphism
