@@ -67,3 +67,19 @@ Whatever the superclass uses as an argument for a method, the subclass using tha
 An overloaded method is just a different method that happens to have the same method name. It has nothing to do with inheritance or polymorphism.
 
 ## Chapter 8: Serious Polymorphism
+
+An interface is a 100% abstract class. An abstract class is a class that can't be instantiated.
+
+When you're designing your class inheritance structure, you have to decide which classes are abstract and which are concrete. 
+
+Concrete classes are those that are specific enough to be instantiated. A concrete class just means that it is okay to make classes of that type.
+
+You can make methods abstract. An abstract method means that the method must be overridden. An abstract method has no body. They exist solely for polymorphism.
+
+Every class in Java extend the class Object.
+
+All interface methods are abstract. They are also implicitly public.
+
+The keyword super lets you invoke a superclass version of an overridden method from within the subclass.
+
+## Chapter 9: Life and Death of an Object
