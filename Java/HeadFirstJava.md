@@ -83,3 +83,38 @@ All interface methods are abstract. They are also implicitly public.
 The keyword super lets you invoke a superclass version of an overridden method from within the subclass.
 
 ## Chapter 9: Life and Death of an Object
+
+The heap is an area of memory where objects live.
+
+The stack is an area of memory where method invocations and local variables live. Local variables are known as stack variables because they live on the stack.
+
+Instance variables are declared inside a class but not inside a method. Instance variables live on the heap insde the object they belong to.
+
+Local variables are declared inside a method, including method parameters. They're temporary and live only as long as the method is on the stack. All local variables live on the stack, in the frame corresponding to the method where the variables are declared.
+
+When you call a method, the methods lands on the top of a call stack. The method at the top of the stack is always the currently-running method for that stack.
+
+If the local variable is a reference to an object, only the variable (reference/remote control) goes on the stack. The object itself still goes in the heap.
+
+Knowing the fundamentals of Java stack and heap is crucial if you want to understand variable scope, object creation issues, memory management, threads and exception handling.
+
+A constructor must have the same name as the class and must not have a return type.
+
+The key feature of a constructor is that it runs before the object can be assigned to a reference. That means you get a chance to step in and do things to get the object ready for use.
+
+Most people use constructors to initialize the state of an object. In other words, to make and assign values to the object's instance variables.
+
+Overloaded constructors means you have more than one constructor in your class. To compile, each constructor must have a different argument list.
+
+All the constructors in an object's inheritance tree must run when you make a new object.
+
+The only way to call a super constructor is by calling super(). The compiler puts in a call to super() if you don't.
+
+The superclass parts of an object have to be fully formed before the subclass parts can be constructed.
+
+They keyword this is a reference to the current object. You can only say it within a constructor and it must be the first statement in the constructor.
+
+An object's life depends entirely on the life of references referring to it.
+
+## Chapter 10: Numbers Matter
+
