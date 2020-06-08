@@ -118,3 +118,16 @@ An object's life depends entirely on the life of references referring to it.
 
 ## Chapter 10: Numbers Matter
 
+Methods in the math class don't use any instance variables. The methods are static, so you don't have to have an instance of math.
+
+The keyword static lets a method run without any instance of the class.
+
+You call a static method using a class name. You call a non-static method with a reference variable name.
+
+A static method can't refer to any instance variables of the class. They can't use non-static methods either.
+
+A static variable gives you a valued shared by all instances of a class. Static variables are initialized when a class is loaded. 
+
+A variable marked final means that it can never change once initialized.
+
+## Chapter 11: Risky Behaviors
