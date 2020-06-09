@@ -131,3 +131,11 @@ A static variable gives you a valued shared by all instances of a class. Static 
 A variable marked final means that it can never change once initialized.
 
 ## Chapter 11: Risky Behaviors
+
+A method has to declare the exceptions it might throw.
+
+An exception is an object of type exception.
+
+A finally block is where you put code that must run regardless of an exception.
+
+## Chapter 12: Getting GUI
