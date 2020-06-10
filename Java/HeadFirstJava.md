@@ -139,3 +139,17 @@ An exception is an object of type exception.
 A finally block is where you put code that must run regardless of an exception.
 
 ## Chapter 12: Getting GUI
+
+The process of getting and handling a user event is called event handling.
+
+A listener interface is the bridge between the listener and the event source. The interface is where the callback method is declared.
+
+A listener's job is to implement the interface, register with the button and provide the event-handling.
+
+An event source's job is to accept registrations (from listeners), get events from the user, and call the listener's event handling method (when the user clicks the event source).
+
+An inner class can use all the methods and variables of the outer class, even the private ones.
+
+## Chapter 13: Using Swing
+
+Layout Manager objects control the size and location of the widgets in a Java GUI.
