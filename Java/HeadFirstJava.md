@@ -153,3 +153,17 @@ An inner class can use all the methods and variables of the outer class, even th
 ## Chapter 13: Using Swing
 
 Layout Manager objects control the size and location of the widgets in a Java GUI.
+
+Components are the things you put in a GUI. All components are capable of holding other components.
+
+## Chapter 14: Saving Objects
+
+Connection streams represent a connection to a source or destination while chain streams can't connect on their own and must be chained to a connection stream.
+
+It usually takes two streams hooked together to do something useful. One to represent the connection, and the other to call methods on.
+
+When an object is serialized, all the objects it refers to from instance variables are also serialized.
+
+If you want your class to be serializable, you must implement the Serializable interface.
+
+Mark a variable as transient if it can't or shouldn't be saved.
