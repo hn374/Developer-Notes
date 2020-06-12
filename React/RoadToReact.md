@@ -18,3 +18,16 @@ A React application and its components start with an initial state. It's rendere
 
 Hooks initialize only once when the component renders for the first time, after which React tracks them internally with their most recent values.
 
+The useEffect hook takes in two arguments. The first argument is a function where the side effect occurs. The optional second argument is a dependency array of variables. If one of these variables changes, the function for the side-effect is called.
+
+The useEffect hook lets us opt into React's component life cycle. It can be triggered when the component is first mounted, but also when one of its dependencies are updated.
+
+We can also create custom hooks in React. The convention is that they must be named with the word `use` in the beginning, and the values should be returned in an array.
+
+A custom hook can encapsulate non-trivial implementation details that should be kept away from a component; can be used in more than one React component, and can even be used an as open source library.
+
+A React fragment wraps other elements into a single top-level element without adding to the rendered output. If you prefer to omit the `<div>` or `<span>` tag, you can replace it with a fragment.
+
+React has a children prop that can be used to get the values from insde the opening and closing tags of the component.
+
+You can create a ref object with React's useRef hook. The ref object is a persistent value which stays intact over the lifetime of a React component. It comes with a property called `current`, which can be changed.
