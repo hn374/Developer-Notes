@@ -31,3 +31,11 @@ A React fragment wraps other elements into a single top-level element without ad
 React has a children prop that can be used to get the values from insde the opening and closing tags of the component.
 
 You can create a ref object with React's useRef hook. The ref object is a persistent value which stays intact over the lifetime of a React component. It comes with a property called `current`, which can be changed.
+
+We can use JavaScript's ternary operator to do conditional rendering in JSX. The simplest example of conditional rendering is a boolean flag state that's toggled with a button.
+
+For more advanced state management, you need to use React's `useReducer` hook. The hook receives a reducer function and an initial state as arguments and returns an array with two items. The first item is the current state, the second item is the state updater (dispatch) function.
+
+A reducer function always receives state and action, and based on these two arguments, the reducer returns a new state.
+
+In a reducer function, we return a new state object which contains all the key/value pairs from the current state object (via JavaScript's spread operator) and the new overwriting properties.
