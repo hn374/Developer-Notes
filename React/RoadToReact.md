@@ -18,9 +18,9 @@ A React application and its components start with an initial state. It's rendere
 
 Hooks initialize only once when the component renders for the first time, after which React tracks them internally with their most recent values.
 
-The useEffect hook takes in two arguments. The first argument is a function where the side effect occurs. The optional second argument is a dependency array of variables. If one of these variables changes, the function for the side-effect is called.
+The `useEffect` hook takes in two arguments. The first argument is a function where the side effect occurs. The optional second argument is a dependency array of variables. If one of these variables changes, the function for the side-effect is called.
 
-The useEffect hook lets us opt into React's component life cycle. It can be triggered when the component is first mounted, but also when one of its dependencies are updated.
+The `useEffect` hook lets us opt into React's component life cycle. It can be triggered when the component is first mounted, but also when one of its dependencies are updated. It runs the first time a component renders (mounting) and then every re-render (updating). By passing an empty dependency array to it as a second argument, we can tell the hook to run on the first render only.
 
 We can also create custom hooks in React. The convention is that they must be named with the word `use` in the beginning, and the values should be returned in an array.
 
@@ -42,3 +42,6 @@ In a reducer function, we return a new state object which contains all the key/v
 
 Memoized handlers can be applied on top of handlers and callback handlers. It uses the `useCallback` hook which only changes a function when one of its dependencies changes.
 
+If a parent component re-renders, its child components re-render as well. This is React's default behavior. 
+
+React's memo method helps prevent re-rendering. 
