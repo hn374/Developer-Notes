@@ -147,6 +147,30 @@ You should not mutate a higher-order component, HOCs should use composition by w
 
 ***
 
+## Refs and the DOM
+
+Refs provide a way to access DOM nodes or React elements created in the render method.
+
+Refs are created using the `React.createRef()` function and are attached to React elements with the `ref` attribute.
+
+A reference to the node is accessible using the `current` attribute of a ref.
+
+***
+
+## React Hooks
+
+# useContext
+
+Accepts a context object (the value returned from `React.createContext`) and returns the current context value for that object. The context value is determined by the value prop of the nearest `<MyContext.Provider>` above the calling component in the tree.
+
+When that provider updates, the hook will trigger a re-render with the latest context value passed to that `MyContext` provider.
+
+# useRef
+
+Returns a mutable ref object whose `.current` property is initialized to the passed argument. The returned object will persist for the full lifetime of the object. Essentially, `useRef` is like a box that can hold a mutable value in its `.current` property.
+
+***
+
 # React Libraries
 
 ## Redux

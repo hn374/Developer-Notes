@@ -45,3 +45,11 @@ Memoized handlers can be applied on top of handlers and callback handlers. It us
 If a parent component re-renders, its child components re-render as well. This is React's default behavior. 
 
 React's memo method helps prevent re-rendering. 
+
+The testing pyramid includes end-to-end tests, integration tests, and unit tests.
+
+Unit tests are used for small, isolated blocks of code such as a single function or component.
+
+Integration tests help us figure out if these units work well together.
+
+An end-to-end test simulates a real life scenario, such as the login flow for a web application.
