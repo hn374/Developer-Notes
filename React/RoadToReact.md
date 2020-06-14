@@ -39,3 +39,6 @@ For more advanced state management, you need to use React's `useReducer` hook. T
 A reducer function always receives state and action, and based on these two arguments, the reducer returns a new state.
 
 In a reducer function, we return a new state object which contains all the key/value pairs from the current state object (via JavaScript's spread operator) and the new overwriting properties.
+
+Memoized handlers can be applied on top of handlers and callback handlers. It uses the `useCallback` hook which only changes a function when one of its dependencies changes.
+
