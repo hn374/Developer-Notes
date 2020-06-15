@@ -53,3 +53,5 @@ Unit tests are used for small, isolated blocks of code such as a single function
 Integration tests help us figure out if these units work well together.
 
 An end-to-end test simulates a real life scenario, such as the login flow for a web application.
+
+Jest allows snapshot tests, which lets you take a snapshot of your rendered component, run it against future captures and be notified of changes. It only tests the differences of the rendered output without heavy maintenance costs.
