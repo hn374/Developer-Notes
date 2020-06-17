@@ -27,3 +27,16 @@ Contexts give you a way out of this mess. Instead of passing down the props expl
 The provider component can be used anywhere in your component tree, but it makes the most sense to se it at the top of your component hierarchy to make the context accessible to everyone. 
 
 You can use local storage and session storage to store data in your browser. Local storage persists even when you close the tab but session storage only exists while it is open.
+
+Local state does not scale in large applications, implementation wise. Too many components across your application share state.
+
+Redux has actions that encapsulate information about the state update. An action is a JavaScript object. It has a type and an optional payload. Executing an action is called to dispatch in Redux. You can dispatch an action to alter the state in the Redux store.
+
+It has a store to save the state too. The store is a singleton.
+
+Redux also has reducers, which pick up information from actions and reduce it to a new state that is saved in the store. A reducer is a pure function. A reducer has two inputs: state and action. The state is always the whole state object from the Redux store. The action is the dispatched action with a type and an optional payload.
+
+When state in the store is changed, a view can act on this by subscribing to the store.
+
+`View -> Action -> Reducer -> Store -> View`
+
