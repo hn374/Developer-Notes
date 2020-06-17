@@ -40,3 +40,8 @@ When state in the store is changed, a view can act on this by subscribing to the
 
 `View -> Action -> Reducer -> Store -> View`
 
+## Advanced Actions
+
+Keeping the payload in the action to a minimum is a best practice in Redux. If you need to add anything, add it in the reducer.
+
+Action creators encapsulate the action with its action type and optional payload in a reusable function. They give you the flexibility to pass in any payload.
