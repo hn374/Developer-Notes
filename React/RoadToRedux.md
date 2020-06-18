@@ -45,3 +45,22 @@ When state in the store is changed, a view can act on this by subscribing to the
 Keeping the payload in the action to a minimum is a best practice in Redux. If you need to add anything, add it in the reducer.
 
 Action creators encapsulate the action with its action type and optional payload in a reusable function. They give you the flexibility to pass in any payload.
+
+## Advanced Reducers
+
+Before you dispatch your first action, the Redux store will initialize by running through all reducers once. 
+
+Your initial state for the createStore() function should be an object that represents the state object.
+
+Nested data structures are fine in Redux, but you want to avoid deeply nested data structures. 
+
+Redux gives you a helper to combine multiple reducers into one root reducer: `combineReducers()`. This function takes an object as an argument that has a state as property name and a reducer as a value.
+
+The root reducer can be used to initialize the Redux store instead of a single reducer.
+
+Scaling reducers horizontally can be done in the following ways: A reducer can care about the different action types and a reducer can be split up into multiple reducers yet be combined as one root reducer for the store initialization. 
+
+You can use nested reducers to introduce vertically clear levels of substate. 
+
+## Redux In React
+
