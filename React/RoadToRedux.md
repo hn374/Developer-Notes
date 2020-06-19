@@ -64,3 +64,20 @@ You can use nested reducers to introduce vertically clear levels of substate.
 
 ## Redux In React
 
+There is a library called `react-redux` that allows you to wire up Redux with React. It gives you a provider component that should be at the root of your application. The provider component takes the store that you created with `createStore()` as an input.
+
+After you've done this, every child component in the whole component tree has implicit access to the store.
+
+You can use a higher order component that is called connect from the `react-redux` library. It makes the Redux store functionality dispatch and the state from the store itself available to the enhanced component.
+
+`mapStateToProps` is a function that can be passed to the connect HOC. If passed, the input component of the HOC will subscribe to updates from the Redux store. Every time the store subscription notices an update, the `mapStateToProps` function will run. The function takes the global state object and optionally a props from the parent component. The function returns an object that is derived from the global state.
+
+`mapDispatchToProps` is a function or object that can be passed down to the connect HOC. This gives access to the dispatch method of the store. It makes it possible to dispatch actions but passes down only plain functions that wire up the dispatching in a higher order function. 
+
+`View -> (mapDispatchToProps) -> Action -> Reducer(s) -> Store -> (mapStateToProps) -> View`
+
+## Middleware In Redux
+
+In Redux, you can use a middleware. Every dispatched action in Redux flows through this middleware. You can opt in a specific feature in between dispatching an action and the moment it reaches the reducer. 
+
+The `createStore` function takes an enhancer as a third argument. The Redux library comes with one of these enhancers, `applyMiddleware()`. 
