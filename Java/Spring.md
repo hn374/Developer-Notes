@@ -1,6 +1,5 @@
 # Spring - Java
 
-
 ## RESTful APIs
 
 In Spring's approach to to building RESTful web services, HTTP requests are handled by a controller. These components are identified by the `@RestController` annotation. This annotation marks the class as a controller where every method returns a domain object instead of a view. 
@@ -23,10 +22,10 @@ When you are working with a remote interface, each call can be expensive. In ord
 
 A DAO abstracts and encapsulates all access to a data source. 
 
-The DAO manages the connection with the data source to obtain and store data. 
+The DAO manages the connection with the data source to obtain and store data. It is an object that provides a common interface to perform all database operations like persistence. 
 
 The DAO abstracts the underlying data access implementation for the service objects to enable transparent access to the data source. The service also delegates data load and store operations to the DAO. 
 
 ## Services
 
-Service objects are doing the work that the application needs to do for the domain you're working with. It involves calculations based on inputs and stored data.
+Service objects are doing the work that the application needs to do for the domain you're working with. It involves calculations based on inputs and stored data, validation of any data that comes in from the view, and figuring out exactly what data source logic to dispatch. 
