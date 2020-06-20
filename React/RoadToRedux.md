@@ -81,3 +81,18 @@ You can use a higher order component that is called connect from the `react-redu
 In Redux, you can use a middleware. Every dispatched action in Redux flows through this middleware. You can opt in a specific feature in between dispatching an action and the moment it reaches the reducer. 
 
 The `createStore` function takes an enhancer as a third argument. The Redux library comes with one of these enhancers, `applyMiddleware()`. 
+
+## Immutable State
+
+Redux embraces an immutable state. Your reducers will always return a new state object. You will never mutate the incoming state. In order to keep your data structures immutable, you have to use `array.map()` and `array.concat(item)` for arrays or `Object.assign()` for objects.
+
+## Normalizing State
+
+The further you have to reach into a deeply nested data structure, the more you have to be careful to keep your data structure immutable.
+
+You should use a library called `normalizr`. The library uses scheme definitions to transform deeply nested data structures into dictionaries that have entities and a corresponding list of ids. 
+
+Normalizing your state has two benefits. It keeps your state flat and thus easier to manage with immutable data structures. In addition, it groups entities to single sources of truth without any duplications. 
+
+When you normalize your state, you will automatically get groupings of entities that could lead to their own reducers managing them.
+
