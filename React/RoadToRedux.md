@@ -96,3 +96,9 @@ Normalizing your state has two benefits. It keeps your state flat and thus easie
 
 When you normalize your state, you will automatically get groupings of entities that could lead to their own reducers managing them.
 
+## Selectors
+
+Selectors are used to retrieve derived properties from your state. 
+
+A selector is a function that takes the state as an argument and returns are a substate or derived properties of it. 
+
