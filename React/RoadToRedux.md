@@ -102,3 +102,12 @@ Selectors are used to retrieve derived properties from your state.
 
 A selector is a function that takes the state as an argument and returns are a substate or derived properties of it. 
 
+Selectors are not mandatory in Redux, but they can be used to improve developer experience in a Redux architecture.
+
+## Asynchronous Redux
+
+`Redux-Thunk` creates a middleware for your action creators. In the middleware, you are enabled to dispatch asynchronous actions. You can also dispatch functions from `Redux-Thunk`. 
+
+The dispatch method of the Redux store when using Redux Thunk will differentiate between passed objects and functions. A passed function is called a thunk. You can dispatch as many actions synchronously and asynchronously as you want in a thunk. 
+
+
