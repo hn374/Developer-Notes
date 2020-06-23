@@ -110,4 +110,36 @@ Selectors are not mandatory in Redux, but they can be used to improve developer 
 
 The dispatch method of the Redux store when using Redux Thunk will differentiate between passed objects and functions. A passed function is called a thunk. You can dispatch as many actions synchronously and asynchronously as you want in a thunk. 
 
+Thunks work great in combination with promises. You can return a promise from your thunk.
 
+## Redux Naming Conventions
+
+Action Creators: doSomething
+
+Reducers: applySomething
+
+Selectors: getSomething
+
+Sagas: watchSomething, handleSomething
+
+## The Relationship Between Actions and Reducers
+
+Redux can be seen as the event bus of your application.
+
+You can send events (actions) with a paylaod and an identifier (action types) into the bus and it will pass a potential consumer (reducers). This is known as the event pattern that Redux embraces.
+
+## Technical Folder Organization
+
+The technical separation of concerns is used in smaller applications. The files are separated by their technical aspects. 
+
+This approach does not scale well.
+
+## Feature Folder Organization
+
+You have a greater flexibility in grouping the features, because you can always split up bigger features to smaller ones and thus keep the folders lightweight.
+
+Teams can work on separate feature folders and don't run into conflicts.
+
+This approach does scale well.
+
+## Testing
