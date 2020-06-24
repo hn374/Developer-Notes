@@ -143,3 +143,33 @@ Teams can work on separate feature folders and don't run into conflicts.
 This approach does scale well.
 
 ## Testing
+
+There are unit tests, integration tests and end-to-end tests.
+
+Input Pattern: 
+-Actions creators can have an optional input that becomes their optional payload.
+-Selectors can have an optional input that supports them to select the substate.
+-Reducers will always receive a previous state and action.
+
+Output Pattern:
+-Action creators will always return an object with a type and an optional payload.
+-Selectors will always return a substate of the state.
+-Reducers will always return a new state.
+
+Test Pattern:
+-When invoking an action creator, the correct return object should be expected.
+-When invoking a selector, the correct substate should be expected.
+-When invoking a reducer, the correct new state should be expected.
+
+## Error Handling
+
+An error in an application can be represented as a state.
+
+When the view layer notices an error in the state, it could use conditional rendering to show an error message instead of the assumed result.
+
+## Redux and Local State
+
+In general, the usage of Redux state should be kept to a minimum. A good rule of thumb is to keep the state close to your component with local state but evaluate later whether another party is interested in the state.
+
+If lifting state doesn't solve the problem because the state is shared across an application, you should consider using Redux for it.
+
