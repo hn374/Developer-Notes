@@ -167,3 +167,11 @@ When an object is serialized, all the objects it refers to from instance variabl
 If you want your class to be serializable, you must implement the Serializable interface.
 
 Mark a variable as transient if it can't or shouldn't be saved.
+
+When an object is deserialized, the JVM attempts to bring the object back to life by making a new object on the heap that has the same state the serialized object had at the time it was serialized. The object's variables are given the values from the serialized state.
+
+Static variables are not saved and when an object is deserialized, it will have whatever static variable its class currently has.
+
+Saving objects through serialization is the easiest way to save and restore data between runnings of a Java program.
+
+## Chapter 15: Making A Connection
