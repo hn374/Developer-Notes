@@ -173,3 +173,10 @@ In general, the usage of Redux state should be kept to a minimum. A good rule of
 
 If lifting state doesn't solve the problem because the state is shared across an application, you should consider using Redux for it.
 
+## Connected Components Revisited
+
+Connect has two more optional arguments.
+
+`mergeProps()` basically gives you an intermediate layer to mix up state props and dispatch props before they reach the wrapped component.
+
+The fourth argument is called `options`. It is an object to configure the connect higher order component. 
