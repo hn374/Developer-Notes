@@ -175,3 +175,9 @@ Static variables are not saved and when an object is deserialized, it will have 
 Saving objects through serialization is the easiest way to save and restore data between runnings of a Java program.
 
 ## Chapter 15: Making A Connection
+
+To connect to another machine, we need a socket connection.
+
+A socket is an object that represents a network connection between two machines. To make a socket connection, you need to know two things about the server: who it is and which port it is running on. In other words, the IP address and the TCP port number.
+
+To communicate over a socket connection, you use streams. 
