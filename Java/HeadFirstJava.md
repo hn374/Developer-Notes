@@ -181,3 +181,12 @@ To connect to another machine, we need a socket connection.
 A socket is an object that represents a network connection between two machines. To make a socket connection, you need to know two things about the server: who it is and which port it is running on. In other words, the IP address and the TCP port number.
 
 To communicate over a socket connection, you use streams. 
+
+A thread object represents a thread of execution; you'll create an instance of class Thread each time you want to start up a new thread of execution.
+
+A runnable is the job a thread is supposed to run.
+
+Put your thread to sleep if you want to be sure that other threads get a chance to run.
+
+Use the synchronized keyword to modify a method so that only one thread at a time can access it.
+
