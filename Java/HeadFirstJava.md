@@ -190,3 +190,7 @@ Put your thread to sleep if you want to be sure that other threads get a chance 
 
 Use the synchronized keyword to modify a method so that only one thread at a time can access it.
 
+For synchronized methods, once a thread enters the method, we have to make sure that all the steps in the method complete as one atomic process before any other thread can enter the method.
+
+## Chapter 16: Data Structures
+
