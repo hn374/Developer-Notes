@@ -159,6 +159,12 @@ A reference to the node is accessible using the `current` attribute of a ref.
 
 ## React Hooks
 
+# useEffect
+
+Everytime the component is rendered, `useEffect` is called. The second parameter is a dependency array where you can pass all the values that your effect depends on. So when one of those dependencies change, `useEffect` is called. If there is no dependency in the dependency array, it only runs once at the beginning. 
+
+You can add a clean up function at the end of `useEffect` for all of our clean up logic.
+
 # useContext
 
 Accepts a context object (the value returned from `React.createContext`) and returns the current context value for that object. The context value is determined by the value prop of the nearest `<MyContext.Provider>` above the calling component in the tree.
