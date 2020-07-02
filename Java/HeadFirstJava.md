@@ -194,3 +194,28 @@ For synchronized methods, once a thread enters the method, we have to make sure 
 
 ## Chapter 16: Data Structures
 
+Hash maps lets you store and access elements as key/value pairs.
+
+Linked lists are designed to give you better performance when you insert or delete elements from the middle of the collection.
+
+Hash sets prevent duplicates in the collection, and given an element, can find that element in the collection quickly.
+
+The main point of generics is to let you write type-safe collections.
+
+A generic class means that the class declaration includes a type parameter. 
+
+A generic method means that the method declaration uses a type parameter in its signature.
+
+In generics, the keyword extends really means "is a" and works for both classes and interfaces.
+
+In the collection API, we find three main interfaces: list, set and map.
+
+List is for when sequence matters.
+
+Set is for when uniqueness matters.
+
+Map is for when finding something by key matters.
+
+When you use a wildcard in your method argument, the compiler will stop you from doing anything that could hurt the list referenced by the method parameter. You can still invoke methods on the elements in a list, but you cannot add elements to the list.
+
+## Chapter 17: Release Your Code
