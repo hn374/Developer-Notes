@@ -218,4 +218,5 @@ Map is for when finding something by key matters.
 
 When you use a wildcard in your method argument, the compiler will stop you from doing anything that could hurt the list referenced by the method parameter. You can still invoke methods on the elements in a list, but you cannot add elements to the list.
 
-## Chapter 17: Release Your Code
+## Chapter 18: Distributed Computing
+
