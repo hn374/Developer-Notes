@@ -49,3 +49,24 @@ A constructor is a special procedure that is automatically called when the objec
 Destructors clean up an object when it is no longer needed (when it has been deleted).
 
 ## Chapter 2: The UML (Unified Modeling Language)
+
+UML is the modeling language of the object oriented community. It is a visual language used to create models of programs.
+
+In this context, the term models of programs means diagrammatic representations of the programs that show the relationships among the objects in the code.
+
+The UML is used primarily for communication with developers and customers. The UML gives us tools to elicit better requirements.
+
+The most basic of UML diagrams is the class diagram. It both describes classes and shows the relationships among them.
+
+An abstract class is a class that is used to define the interface for the classes that derive from it as well as being a place to put any common data and methods of these derived classes.
+
+## Chapter 4: A Standard Object-Oriented Solution
+
+One of the fundamentals of baseball is to keep your eye on the ball. Don't let yourself get distracted by secondary details. Focus on the most important task at hand, the thing you are trying to handle now.
+
+Proper analysis and design requires a balancing act between competing interests. 
+
+You have to decide which aspects of the problem you are designing to, or what sorts of changes you are trying to protect your system from. 
+
+## Chapter 5: An Introduction To Design Patterns
+
