@@ -82,3 +82,23 @@ Patterns help us see the forest and the trees.
 
 ## Chapter 6: The Facade Pattern
 
+The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a high level interface that makes the subsystem easier to use. For example, using a 3D drawing program in a 2D way.
+
+This approach only works when using a subset of the system's capabilities or interacting with it in a particular way. 
+
+Most of the work still needs to be done by the underlying system. The Facade provides a collection of easier-to-understand methods.
+
+Facade can reduce the number of objects for the client.
+
+The Facade Pattern is named that because it puts up a new interface in front of the original system.
+
+The Facade Pattern applies when you want to encapsulate or hide the original system.
+
+## Chapter 7: The Adapter Pattern
+
+The Adapter Pattern converts the interface of a class into another interface that the client expects. 
+
+Adapter lets classes work together that could not otherwise because of incompatible interfaces.
+
+A Facade simplifies an interface while an Adapter converts a preexisting interface into another interface.
+
