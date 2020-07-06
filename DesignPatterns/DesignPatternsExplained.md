@@ -70,3 +70,15 @@ You have to decide which aspects of the problem you are designing to, or what so
 
 ## Chapter 5: An Introduction To Design Patterns
 
+A pattern is a solution to a problem in a context. 
+
+A pattern involves four items: the name of the pattern, the purpose of the pattern, how we could accomplish this, and the constraints and forces we have to consider to solve it.
+
+Patterns exist for almost any design problem.
+
+Patterns can also be combined together to solve complex architectural problems.
+
+Patterns help us see the forest and the trees.
+
+## Chapter 6: The Facade Pattern
+
