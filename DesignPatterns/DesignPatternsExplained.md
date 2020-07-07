@@ -125,3 +125,14 @@ The specification identifies the interface I need to use to handle all the cases
 The concept of using objects to hold variations in behavior is not unlike the practice of using data members to hold variations in data.
 
 ## Chapter 9: The Strategy Pattern
+
+The Strategy Pattern is the use of encapsulating an algorithm in an abstract class and using one of them at a time interchangeably. 
+
+The intent for the Strategy Pattern is to define a family of algorithms, encapsulate each one, and make them interchangeable. 
+
+The Strategy Pattern separates the selection of the algorithm from the implementation of the algorithm. Allows for the selection to be made upon context.
+
+Technically, the Strategy Pattern is about encapsulating algorithms, but in practice, it can be used to encapsulate any kind of rule.
+
+## Chapter 10: The Bridge Pattern
+
