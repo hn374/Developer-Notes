@@ -102,3 +102,26 @@ Adapter lets classes work together that could not otherwise because of incompati
 
 A Facade simplifies an interface while an Adapter converts a preexisting interface into another interface.
 
+## Chapter 8: Expanding Our Horizons
+
+An object is an entity that has responsibilities. These responsibilities define the behavior of the object.
+
+Design patterns use inheritance to classify variations in behaviors.
+
+Many design patterns use encapsulation to create layers between objects. This enables the designer to change things on different sides of the layer without adversely affecting the other side. This promotes loose coupling between the sides.
+
+If variations are the specific concrete classes in the domain, commonality defines the concepts in the domain that tie them together.
+
+The common concepts will be represented by abstract classes. The variations found by variability analysis will be implemented by the concrete classes. 
+
+An abstract class represents the core concept that binds together all the derivatives of the class. This core concept is what defines the commonality.
+
+When defining an abstract class, you must ask yourself what interface is needed to handle all the responsibilities of this class?
+
+When defining derived classes, you must ask yourself given this particular variation, how can I implement it with the given specification?
+
+The specification identifies the interface I need to use to handle all the cases of this concept. 
+
+The concept of using objects to hold variations in behavior is not unlike the practice of using data members to hold variations in data.
+
+## Chapter 9: The Strategy Pattern
