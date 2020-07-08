@@ -136,3 +136,16 @@ Technically, the Strategy Pattern is about encapsulating algorithms, but in prac
 
 ## Chapter 10: The Bridge Pattern
 
+The intent of the Bridge Pattern is to decouple an abstraction from its implementation so that the two can vary independently. 
+
+The Bridge Pattern often incorporates the Adapter Pattern.
+
+When two or more patterns are tightly integrated like the Bridge and Adapter, the result is often called a compound design pattern.
+
+One way to measure the quality of a design is to see how it handles variation.
+
+Modifying code to improve its structure without adding function is called refactoring.
+
+In general, you should identify which patterns to consider by matching them with the characteristics and behaviors in the problem domain.
+
+## Chapter 11: The Abstract Factory Pattern
