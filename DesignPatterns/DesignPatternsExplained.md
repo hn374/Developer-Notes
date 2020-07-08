@@ -149,3 +149,22 @@ Modifying code to improve its structure without adding function is called refact
 In general, you should identify which patterns to consider by matching them with the characteristics and behaviors in the problem domain.
 
 ## Chapter 11: The Abstract Factory Pattern
+
+The intent of the Abstract Factory Pattern is to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+Often a switch statement indicates the need for polymorphic behavior or the presence of misplaced responsibilities. 
+
+The client object just knows who to ask for the objects it needs and how to use them.
+
+The Abstract Factory Class specifies which objects can be instantiated by defining a method for each of these different types objects. Typically, an Abstract Factory object will have a method for each type of object that must be instantiated. 
+
+The concrete factories specify which objects are to be instantiated.
+
+This pattern isolates the rules of which objects to use from the logic of how to use these objects.
+
+## Chapter 12: How Do Experts Design?
+
+Start by looking at the problem in its simplest terms and then adding additional features, making the design more complex as we go because we are adding more information.
+
+## Chapter 13
+
