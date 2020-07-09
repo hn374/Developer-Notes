@@ -168,3 +168,20 @@ Start by looking at the problem in its simplest terms and then adding additional
 
 ## Chapter 13
 
+The process of thinking in patterns: identify the patterns, analyze and apply the patterns, and add detail.
+
+A pattern in the system often relates to other patterns in the system by providing a context for these other patterns.
+
+The Abstract Factory Pattern creates sets of related objects (families).
+
+The Adapter Pattern adapts an existing class A to the interface needed by using class B. 
+
+The Bridge Pattern allows for different implementations to be used by a set of related objects (concrete classes of the abstraction in the pattern).
+
+The Facade Pattern simplifies an existing system A for a class using B.
+
+Consider what you need to have in your system before you concern yourself with how to create it.
+
+Outermost patterns is a term for the one or two patterns that establish a context for the other patterns in the system. This is the pattern that constrains what the other patterns can do.
+
+## Chapter 14: The Principles and Strategies of Design Patterns
