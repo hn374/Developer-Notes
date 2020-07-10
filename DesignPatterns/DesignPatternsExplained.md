@@ -200,5 +200,17 @@ It is important when designing classes within a context that they present the sa
 
 Given a reference to a base class (or interface), the using object should not be able to tell whether a derivation (or implementation) is present. This makes all derivations of the base class interchangeable with each other.
 
-To make design decisions, you shoul ask yourself: "Under what circumstances would this alternative be better than the other alternative?" and then ask "Which of these circumstances is most like my problem domain?"
+To make design decisions, you should ask yourself: "Under what circumstances would this alternative be better than the other alternative?" and then ask "Which of these circumstances is most like my problem domain?"
+
+## Chapter 15: Commonality and Variability Analysis
+
+Design patterns can't be used in all designs, but the lessons learned from them can.
+
+Experienced developers know that when adding new function to an existing system, the major cost is often not in writing the new code but in integrating it into the existing system. The reason for this is that the pieces in most existing systems are fairly tightly coupled. We must eliminate, or greatly limit, this coupling.
+
+Use CVA to identify the concepts (commonalities) and concrete implementations (variabilities) that are present in the problem domain.
+
+After the concept for the functionality you need has been identified, you go on to specify the interface for the abstraction that encapsulates this. Derive this interface by considering how the concrete implementations derived from this abstraction will be used.
+
+## Chapter 16: The Analysis Matrix
 
