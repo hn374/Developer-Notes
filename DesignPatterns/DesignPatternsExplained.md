@@ -185,3 +185,20 @@ Consider what you need to have in your system before you concern yourself with h
 Outermost patterns is a term for the one or two patterns that establish a context for the other patterns in the system. This is the pattern that constrains what the other patterns can do.
 
 ## Chapter 14: The Principles and Strategies of Design Patterns
+
+At the local level, patterns tell us how to solve particular problems for a given context. 
+
+At the global level, patterns create a map of how the components of the application interrelate with one another.
+
+The open closed principle states that the modules, methods and classes should be open for extension, while closed for modification. In other words, design your software so that you can extend its capabilities without changing it.
+
+The dependency inversion principle states that high-level modules should not depend on low-level modules. Both high-level and low-level modules should depend upon abstractions. 
+
+It also states that abstractions should not depend on details, details should depend upon abstractions.
+
+It is important when designing classes within a context that they present the same external behavior.
+
+Given a reference to a base class (or interface), the using object should not be able to tell whether a derivation (or implementation) is present. This makes all derivations of the base class interchangeable with each other.
+
+To make design decisions, you shoul ask yourself: "Under what circumstances would this alternative be better than the other alternative?" and then ask "Which of these circumstances is most like my problem domain?"
+
