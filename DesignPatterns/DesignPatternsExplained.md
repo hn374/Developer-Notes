@@ -212,5 +212,11 @@ Use CVA to identify the concepts (commonalities) and concrete implementations (v
 
 After the concept for the functionality you need has been identified, you go on to specify the interface for the abstraction that encapsulates this. Derive this interface by considering how the concrete implementations derived from this abstraction will be used.
 
-## Chapter 16: The Analysis Matrix
+## Chapter 17: The Decorator Pattern
+
+The intent of the Decorator Pattern is to attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+The Decorator Pattern works by allowing me to create a chain of objects that starts with the decorator objects, the objects responsible for the new function and ends with the original object. It is essentially a chain of objects.
+
+The Decorator Pattern helps to decompose the problem into two parts: how to implement the objects that give the new functionality and how to organize the objects for each special case.
 
