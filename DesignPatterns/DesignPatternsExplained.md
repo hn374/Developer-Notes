@@ -150,6 +150,8 @@ In general, you should identify which patterns to consider by matching them with
 
 ## Chapter 11: The Abstract Factory Pattern
 
+The Factory Method is when a method returns one of several possible classes that share a common super class. The class is chosen at run time. It is usually used when you want to dynamically generate a class when you don't know ahead of time what class object you need.
+
 The intent of the Abstract Factory Pattern is to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 Often a switch statement indicates the need for polymorphic behavior or the presence of misplaced responsibilities. 
