@@ -29,3 +29,23 @@ Restating the problem in a more formal manner is a great technique for gaining i
 Many programmers seek out other programmers to discuss a problem, not justb ecause other programmers may have the answer but also because articulating the problem out loud often triggers new and useful thoughts. Restating a problem is like having that discussion with another programmer, except that you are playing both parts.
 
 The broader lesson is that thinking about the problem may be as productive, or in some cases more productive than thinking about the solution.
+
+Our inability to plan a complete solution does not prevent us from making strategies or employing techniques to systematically solve the puzzle.
+
+In solving programming problems, we are sometimes faced with situations where we can't see a clear path to code the solution, but we must never allow this to be an excuse to forgo planning and systematic approaches.
+
+It's better to develop a strategy than to attack the problem through trial and error.
+
+Sometimes problems are divisible in ways that are not immediately obvious.
+
+While constraints are often what make a problem difficult to begin with, they may also simplify our thinking about the solution because they eliminate choices.
+
+There is a strategy called the Most Constrained Variable. It means that in a problem where you are trying to assign different values to different variables to meet constraints, you should start with the variable that has the most constraints, or the variable that has the lowest number of possible values.
+
+If one part of the problem is heavily constrained, that's a great place to start because you can make progress without worrying that you are spending time on work that will later be undone.
+
+If we discover an analogy early enough, we can avoid most of the work of the problem by translating our solution from the first problem rather than creating a new solution.
+
+You should always have a plan, rather than engaging in directionless activity.
+
+Without a plan, you have only one goal: solve the whole problem. Until you solved the problem, you won't feel you have accomplished anything. If instead, you create a plan with a series of minor goals, even if some seem tangential to the main proble, you will make measurable progress toward a solution and feel that your time has been spent usefully. 
