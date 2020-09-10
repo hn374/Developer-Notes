@@ -49,3 +49,16 @@ If we discover an analogy early enough, we can avoid most of the work of the pro
 You should always have a plan, rather than engaging in directionless activity.
 
 Without a plan, you have only one goal: solve the whole problem. Until you solved the problem, you won't feel you have accomplished anything. If instead, you create a plan with a series of minor goals, even if some seem tangential to the main proble, you will make measurable progress toward a solution and feel that your time has been spent usefully. 
+
+A common theme in problem solving is making useful progress to build confidence that you will ultimately complete the task. By starting with what you know, you build confidence and momentum toward the goal.
+
+If we think of programming skills as tools and a programming problem as a home repair project, you should try to make the repair using the tools already in your garage before heading to the hardware store.
+
+When faced with a problem you are unable to solve, you reduce the scope of the problem, by either adding or removing constraints, to rpoduce a problem that you do know how to solve.
+
+Although recognizing analogies is the most important way you will improve your speed and skill at problem solving, it is also the most difficult skill to develop. The reason it is so difficult at first is that you can't look for analogies until you have a storehouse of previous solutions to reference.
+
+Sometimes the best way to make progress is to try things and observe the results.
+
+## Chapter 2
+
