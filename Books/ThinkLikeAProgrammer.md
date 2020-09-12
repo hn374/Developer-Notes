@@ -62,3 +62,9 @@ Sometimes the best way to make progress is to try things and observe the results
 
 ## Chapter 2
 
+The primary goal in problem solving is to find a program that solves the stated problem and meets all constraints.
+
+The secondary goal is to find that program in the minimal amount of time.
+
+Use the technique of breaking up the problem into components, writing code to solve those components individually, and then using the knowledge gained from writing the programs or even directly using lines of code from the programs, solve the original problem.
+
