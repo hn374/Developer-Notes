@@ -68,3 +68,9 @@ The secondary goal is to find that program in the minimal amount of time.
 
 Use the technique of breaking up the problem into components, writing code to solve those components individually, and then using the knowledge gained from writing the programs or even directly using lines of code from the programs, solve the original problem.
 
+## Chapter 3
+
+Refactoring means improving working code, not changing what it does but how it does it.
+
+A long journey is not a waste of time if you learned something from it that you wouldn't have learned by going the short way.
+
