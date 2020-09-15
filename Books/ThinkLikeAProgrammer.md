@@ -84,3 +84,9 @@ Random access means that we can access any element in an array or vector at any 
 
 By using pointers, we can make an array with a size determined at runtime, rather than having to choose the size before building our application. This saves us from having to choose between potentially running out of space in the array and making the array as large as could possibly be needed.
 
+In C++, you might explicitly create your own stack for use in a particular algorithm, but there is always one stack in your program that you will be using and that is the runtime stack.
+
+Every time a function is called, a block of memory is allocated on the top of the runtime stack, which is called the activation record. The main content of the activation record is the storage space for variables. 
+
+A block of memory is a contiguous series of addresses; thus, over the lifetime of a program with many memory allocations and deallocations, we'll end up with lots of gaps between the remaining allocated memory blocks. This problem is known as memory fragmentation.
+
