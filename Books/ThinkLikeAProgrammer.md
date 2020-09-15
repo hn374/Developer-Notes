@@ -74,3 +74,13 @@ Refactoring means improving working code, not changing what it does but how it d
 
 A long journey is not a waste of time if you learned something from it that you wouldn't have learned by going the short way.
 
+An array is just a tool. As with any tool, an important part of learning how to use an array is learning when to use it and when not to use it.
+
+Performance tuning is the systematic analysis and improvement of a program's efficiency in time and space. Performance tuning a program is a lot like performance tuning a race car: an exacting job, where small adjustments can have large effects and expert knowledge of how mechanisms work under the hood is required.
+
+Random access means that we can access any element in an array or vector at any time.
+
+## Chapter 4
+
+By using pointers, we can make an array with a size determined at runtime, rather than having to choose the size before building our application. This saves us from having to choose between potentially running out of space in the array and making the array as large as could possibly be needed.
+
