@@ -90,3 +90,13 @@ Every time a function is called, a block of memory is allocated on the top of th
 
 A block of memory is a contiguous series of addresses; thus, over the lifetime of a program with many memory allocations and deallocations, we'll end up with lots of gaps between the remaining allocated memory blocks. This problem is known as memory fragmentation.
 
+Modern computer systems have so much memory that it's easy to think of it as an infinite resource, but in fact each program has a limited amount of memory. Programs need to use memory efficiently to avoid overall system slow-down.
+
+A memory leak is a situation in which memory is allocated from the heap but never deallocated and not referenced by any pointer.
+
+Solving by sample case is a technique where you start with a nontrivial sample input for the function or program. Write down all the details of that input along with all the details of the output. Then when you write your code, you'll be writing for the general case while also double-checking how each step transforms your sample to make sure that you reach the desired output state. 
+
+A well-drawn diagram for a problem example is like having a mapped-out route to your destination before starting on a long vacation drive. It's a little bit of extra effort at the start to potentially avoid much more effort and frustration at the end.
+
+In programming, a special case or edge case is a situation in which valid data will cause the normal flow of code to produce erroneous results.
+
