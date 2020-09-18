@@ -100,3 +100,5 @@ A well-drawn diagram for a problem example is like having a mapped-out route to 
 
 In programming, a special case or edge case is a situation in which valid data will cause the normal flow of code to produce erroneous results.
 
+A pointer external to the list that points to the first node in a linked list is known as a head pointer.
+
