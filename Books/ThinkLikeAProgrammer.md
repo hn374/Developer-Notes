@@ -102,3 +102,13 @@ In programming, a special case or edge case is a situation in which valid data w
 
 A pointer external to the list that points to the first node in a linked list is known as a head pointer.
 
+## Chapter 5
+
+A class is a blueprint for constructing a particular package of code and data; each variable created according to a class's blueprint is known as an object of that class.
+
+Code outside of a class that creates and uses an object of that class is known as a client of the class.
+
+A class declaration names the class and lists all of the members, or items inside that class.
+
+Each item is either a data member, a variable declared within the class, or a method, which is a function declared within the class.
+
